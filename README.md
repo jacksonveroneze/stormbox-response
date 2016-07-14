@@ -1,7 +1,6 @@
 # StormBox Response AutoComplete
-Pure JS, with ES7 features, without jQuery, object-oriented.
 
-> **Caution!** This widget is under construction.
+> **Caution!** This element is under construction.
 
 ## Installation
 
@@ -61,8 +60,3 @@ See also the list of [contributors](https://github.com/Seldaek/monolog/contribut
 ### License
 
 Stormbox Response is licensed under the MIT License - see the `LICENSE` file for details
-
-### Acknowledgements
-
-This library is heavily inspired by Python's [Logbook](http://packages.python.org/Logbook/)
-library, although most concepts have been adjusted to fit to the PHP world.
