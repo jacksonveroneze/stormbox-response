@@ -45,9 +45,39 @@ class ResponseTest extends PHPUnit_Framework_TestCase
         }
         $this->instance->setPagination(new Pagination($this->limiteRegistros, 30, 1));
 
-		$result = $this->instance->toArray();
+		$result = json_encode($this->instance->toArray());
     }
 
+```
+
+## Response example
+```
+{
+  "data": [
+    {
+      "content": "Content_0",
+      "value": 0,
+      "others": [
+        {
+          "field": "field_0",
+          "value": 0,
+          "content": "content_0"
+        }
+      ],
+      "additional": [
+        {
+          "label": "Label",
+          "content": 0
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "size": 1,
+    "per_page": 30,
+    "current_page": 1
+  }
+}
 ```
 
 ## Documentation
