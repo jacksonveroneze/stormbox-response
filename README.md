@@ -1,7 +1,6 @@
 # StormBox Response AutoComplete [![Build Status](https://travis-ci.org/jacksonveroneze/stormbox-response.svg?branch=master)](https://travis-ci.org/jacksonveroneze/stormbox-response)
 
-[![Total Downloads](https://img.shields.io/packagist/dt/jacksonveroneze/stormbox-response.svg)](https://packagist.org/packages/jacksonveroneze/stormbox-response)
-[![Code Climate](https://codeclimate.com/github/jacksonveroneze/stormbox-response/badges/gpa.svg)](https://codeclimate.com/github/jacksonveroneze/stormbox-response)
+[![Packagist](https://img.shields.io/packagist/dt/jacksonveroneze/stormbox-response.svg)](https://packagist.org/packages/jacksonveroneze/stormbox-response)[![Code Climate](https://codeclimate.com/github/jacksonveroneze/stormbox-response/badges/gpa.svg)](https://codeclimate.com/github/jacksonveroneze/stormbox-response)
 [![Test Coverage](https://codeclimate.com/github/jacksonveroneze/stormbox-response/badges/coverage.svg)](https://codeclimate.com/github/jacksonveroneze/stormbox-response/coverage)
 [![Issue Count](https://codeclimate.com/github/jacksonveroneze/stormbox-response/badges/issue_count.svg)](https://codeclimate.com/github/jacksonveroneze/stormbox-response)
 
