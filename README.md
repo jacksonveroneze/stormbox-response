@@ -92,9 +92,14 @@ class ResponseTest
 
 ### Author
 
-Jackson Veroneze - <jackson@jacksonveroneze.com> - <http://jacksonveroneze.com><br />
+Jackson Veroneze - <jackson@jacksonveroneze.com> - <http://jacksonveroneze.com>
 See also the list of [contributors](https://github.com/jacksonveroneze/stormbox-response/graphs/contributors) which participated in this project.
 
 ### License
 
 Stormbox Response is licensed under the MIT License - see the `LICENSE` file for details
+
+### References
+* [Stormbox](https://github.com/mateuscalza/stormbox) - Library JS
+* [Stormbox Zend Form Element](https://github.com/mm75/stormbox-zf-element) - Element Zend Form(Only ZendFramework 1)
+
