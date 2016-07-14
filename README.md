@@ -1,4 +1,4 @@
-# StormBox Response AutoComplete
+# StormBox Response AutoComplete [![Build Status](https://travis-ci.org/jacksonveroneze/stormbox-response.svg?branch=master)](https://travis-ci.org/jacksonveroneze/stormbox-response)
 
 > **Caution!** This element is under construction.
 
