@@ -1,0 +1,39 @@
+{
+    "name": "jacksonveroneze/autocomplete",
+    "description": "Autocomplete",
+    "homepage": "https://github.com/jacksonveroneze/autocomplete-php/",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "autocomplete",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Jackson Veroneze",
+            "email": "jackson@jacksonveroneze.com",
+            "homepage": "http://jacksonveroneze.com"
+        },
+        {
+            "name": "Mario Mendonça",
+            "email": "mario.mendonca@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inovadora\\StormboxResponse\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "InovadoraTest\\StormboxResponse\\": "test/"
+        }
+    }
+}
