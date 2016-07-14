@@ -1,7 +1,7 @@
 {
-    "name": "jacksonveroneze/autocomplete",
-    "description": "Autocomplete",
-    "homepage": "https://github.com/jacksonveroneze/autocomplete-php/",
+    "name": "jacksonveroneze/stormbox-response",
+    "description": "Stormbox Response",
+    "homepage": "https://github.com/jacksonveroneze/stormbox-response",
     "type": "library",
     "license": "MIT",
     "keywords": [
