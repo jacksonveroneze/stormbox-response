@@ -1,6 +1,6 @@
 <?php
 
-namespace InovadoraTest\StormboxResponse\Response;
+namespace InovadoraTest\StormboxResponse;
 
 /**
  * Classe responsável pelo teste unitário.
@@ -17,13 +17,12 @@ namespace InovadoraTest\StormboxResponse\Response;
  * @link     #
  * @version 01.00.000
  */
-
 use \ArrayIterator;
-use \Inovadora\StormboxResponse\Response\DataItem;
-use \Inovadora\StormboxResponse\Response\DataItemAditional;
-use \Inovadora\StormboxResponse\Response\DataItemOthers;
-use \Inovadora\StormboxResponse\Response\Pagination;
-use \Inovadora\StormboxResponse\Response\Response;
+use \Inovadora\StormboxResponse\DataItem;
+use \Inovadora\StormboxResponse\DataItemAditional;
+use \Inovadora\StormboxResponse\DataItemOthers;
+use \Inovadora\StormboxResponse\Pagination;
+use \Inovadora\StormboxResponse\Response;
 use \PHPUnit_Framework_TestCase;
 
 /**

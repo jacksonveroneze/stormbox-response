@@ -1,6 +1,6 @@
 <?php
 
-namespace InovadoraTest\StormboxResponse\Response;
+namespace InovadoraTest\StormboxResponse;
 
 /**
  * Classe responsável pelo teste unitário.
@@ -17,7 +17,7 @@ namespace InovadoraTest\StormboxResponse\Response;
  * @link     #
  * @version 01.00.000
  */
-use \Inovadora\StormboxResponse\Response\Pagination;
+use \Inovadora\StormboxResponse\Pagination;
 use \PHPUnit_Framework_TestCase as TestCase;
 
 /**

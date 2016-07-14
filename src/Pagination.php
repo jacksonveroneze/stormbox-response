@@ -1,9 +1,9 @@
 <?php
 
-namespace Inovadora\StormboxResponse\Response;
+namespace Inovadora\StormboxResponse;
 
 /**
- * Classe responsável por armazenar os valores(adicionais) da resposta.
+ * Classe responsável por armazenar os dados da paginação.
  *
  * PHP Version 5.6.0
  *
@@ -20,7 +20,7 @@ namespace Inovadora\StormboxResponse\Response;
 use \ArrayIterator;
 
 /**
- * Classe responsável por armazenar os valores(adicionais) da resposta.
+ * Classe responsável por armazenar os dados da paginação.
  *
  * PHP Version 5.6.0
  *
@@ -34,29 +34,51 @@ use \ArrayIterator;
  * @link     #
  * @version 01.00.000
  */
-class DataItemAditional implements ToArray
+class Pagination implements ToArray
 {
 
     /**
-     * @var string
+     * @var integer
      */
-    private $label = '';
+    private $size = 0;
 
     /**
-     * @var string
+     * @var integer
      */
-    private $content = '';
+    private $perPage = 0;
+
+    /**
+     * @var integer
+     */
+    private $currentPage = 0;
 
     /**
      * Método construtor da classe.
      * 
-     * @param string $label
-     * @param string $content
+     * @param integer $size
+     * @param integer $perPage
+     * @param integer $currentPage
      */
-    public function __construct($label, $content)
+    public function __construct($size, $perPage, $currentPage)
     {
-        $this->label = $label;
-        $this->content = $content;
+        $this->size = $size;
+        $this->perPage = $perPage;
+        $this->currentPage = $currentPage;
+    }
+
+    public function getSize()
+    {
+        return $this->size;
+    }
+
+    public function getPerPage()
+    {
+        return $this->perPage;
+    }
+
+    public function getCurrentPage()
+    {
+        return $this->currentPage;
     }
 
     /**
@@ -67,8 +89,9 @@ class DataItemAditional implements ToArray
     public function toArray()
     {
         $result = new ArrayIterator();
-        $result->offsetSet('label', $this->label);
-        $result->offsetSet('content', $this->content);
+        $result->offsetSet('size', $this->size);
+        $result->offsetSet('per_page', $this->perPage);
+        $result->offsetSet('current_page', $this->currentPage);
 
         return $result->getArrayCopy();
     }

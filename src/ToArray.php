@@ -1,6 +1,6 @@
 <?php
 
-namespace Inovadora\StormboxResponse\Response;
+namespace Inovadora\StormboxResponse;
 
 /**
  * Interface responsável por padronizar o retorno do objeto em forma de array.

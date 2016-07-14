@@ -1,6 +1,6 @@
 <?php
 
-namespace Inovadora\StormboxResponse\Response;
+namespace Inovadora\StormboxResponse;
 
 /**
  * Classe responsável por armazenar os itens/paginação da resposta.

@@ -1,9 +1,9 @@
 <?php
 
-namespace Inovadora\StormboxResponse\Response;
+namespace Inovadora\StormboxResponse;
 
 /**
- * Classe responsável por armazenar os valores(outros) da resposta.
+ * Classe responsável por armazenar os valores(adicionais) da resposta.
  *
  * PHP Version 5.6.0
  *
@@ -20,7 +20,7 @@ namespace Inovadora\StormboxResponse\Response;
 use \ArrayIterator;
 
 /**
- * Classe responsável por armazenar os valores(outros) da resposta.
+ * Classe responsável por armazenar os valores(adicionais) da resposta.
  *
  * PHP Version 5.6.0
  *
@@ -34,18 +34,13 @@ use \ArrayIterator;
  * @link     #
  * @version 01.00.000
  */
-class DataItemOthers implements ToArray
+class DataItemAditional implements ToArray
 {
 
     /**
      * @var string
      */
-    private $field = '';
-
-    /**
-     * @var string
-     */
-    private $value = '';
+    private $label = '';
 
     /**
      * @var string
@@ -55,14 +50,12 @@ class DataItemOthers implements ToArray
     /**
      * Método construtor da classe.
      * 
-     * @param string $field
-     * @param string $value
+     * @param string $label
      * @param string $content
      */
-    public function __construct($field, $value, $content = '')
+    public function __construct($label, $content)
     {
-        $this->field = $field;
-        $this->value = $value;
+        $this->label = $label;
         $this->content = $content;
     }
 
@@ -74,8 +67,7 @@ class DataItemOthers implements ToArray
     public function toArray()
     {
         $result = new ArrayIterator();
-        $result->offsetSet('field', $this->field);
-        $result->offsetSet('value', $this->value);
+        $result->offsetSet('label', $this->label);
         $result->offsetSet('content', $this->content);
 
         return $result->getArrayCopy();
