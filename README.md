@@ -1,5 +1,8 @@
 # StormBox Response AutoComplete [![Build Status](https://travis-ci.org/jacksonveroneze/stormbox-response.svg?branch=master)](https://travis-ci.org/jacksonveroneze/stormbox-response)
 
+[![Total Downloads](https://img.shields.io/packagist/dt/jacksonveroneze/stormbox-response.svg)](https://packagist.org/packages/jacksonveroneze/stormbox-response)
+
+
 > **Caution!** This element is under construction.
 
 ## Installation
