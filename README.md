@@ -88,7 +88,7 @@ class ResponseTest
 ### Author
 
 Jackson Veroneze - <jackson@jacksonveroneze.com> - <http://jacksonveroneze.com><br />
-See also the list of [contributors](https://github.com/Seldaek/monolog/contributors) which participated in this project.
+See also the list of [contributors](https://github.com/jacksonveroneze/stormbox-response/graphs/contributors) which participated in this project.
 
 ### License
 
