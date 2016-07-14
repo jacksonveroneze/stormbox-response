@@ -22,21 +22,24 @@ use \Inovadora\StormboxResponse\DataItemOthers;
 use \Inovadora\StormboxResponse\Pagination;
 use \Inovadora\StormboxResponse\Response;
 
-class ResponseTest extends PHPUnit_Framework_TestCase
+class ResponseTest
 {
+    /**
+     * @var integer
+     */
+    private $limiteRegistros;
+
     /**
      * @var object
      */
     private $instance;
-    
-    /**
-     * @var integer
-     */
 
     public function test()
     {
-        $this->limiteRegistros = rand(1, 100);
+        $this->limiteRegistros = 1;
+        
         $this->instance = new Response();
+        
         for ($i = 0; $i < $this->limiteRegistros; $i++) {
             $others = new DataItemOthers('field_' . $i, $i, 'content_' . $i);
             $additional = new DataItemAditional('Label', $i);
